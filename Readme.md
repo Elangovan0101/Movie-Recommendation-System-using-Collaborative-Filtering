@@ -30,8 +30,7 @@ The dataset used in this project consists of user ratings and movie metadata. It
 
 To install the necessary dependencies, use the following command:
 
-```bash
 pip install -r requirements.txt
 
 ## 🚀 Usage
-Clone the repository: 
+Clone the repository: https://github.com/Elangovan0101/Movie-Recommendation-System-using-Collaborative-Filtering.git
