@@ -1,50 +1,57 @@
-🎬 Movie Recommendation System using Collaborative Filtering 🍿
-Welcome to the Movie Recommendation System project! This project utilizes collaborative filtering techniques to suggest movies based on user ratings and interactions.
+# 🎬 Movie Recommendation System using Collaborative Filtering 🍿
+
+## 📋 Table of Contents
+
+- [Overview](#overview)
+- [Motivation](#motivation)
+- [Learning Objective](#learning-objective)
+- [Technical Aspect](#technical-aspect)
+- [Technologies Used](#technologies-used)
+- [To Do](#to-do)
+- [Installation](#installation)
+- [Run](#run)
+- [License](#license)
+
+## Overview
+
+This project aims to recommend movies to users based on their past ratings and interactions. By leveraging collaborative filtering techniques, the system predicts movie preferences and provides personalized recommendations.
+
+## Motivation
+
+The motivation behind this project is to enhance user experience by offering tailored movie suggestions. With the abundance of movies available, this system helps users discover content aligned with their interests, thereby improving engagement and satisfaction.
+
+## Learning Objective
+
+The primary objectives of this project include:
+
+- Implementing collaborative filtering algorithms.
+- Understanding recommendation system principles.
+- Building a scalable and efficient movie recommendation engine.
+
+## Technical Aspect
+
+Key technical aspects of the project:
+
+- Utilizing collaborative filtering with K-Nearest Neighbors (KNN).
+- Processing and analyzing movie ratings data.
+- Providing user-friendly recommendations through a Flask web application.
+
+## Technologies Used  
+
+- ![Python](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/240px-Python-logo-notext.svg.png)
+- ![Flask](https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png)
+- ![NumPy](https://numpy.org/images/logos/numpy.svg)
+- ![Pandas](https://pandas.pydata.org/static/img/pandas.svg)
+- ![Scikit-learn](https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png)
+
+## To Do
+
+If you find a bug or have a feature request, feel free to open an issue.
+
+## Installation
+
+To get started with the Movie Recommendation System:
+
+1. Clone this repository:
 
 
-
-📚 Table of Contents
-Introduction
-Dataset
-Installation
-Usage
-Models Used
-Evaluation
-Contributing
-License
-🌟 Introduction
-Finding a good movie to watch can be a daunting task with the plethora of options available. This project aims to simplify that by recommending movies based on user ratings using a machine learning approach.
-
-📊 Dataset
-The datasets used in this project are:
-
-movies.csv: Contains movie information (movieId, title, genres).
-ratings.csv: Contains user ratings for movies (userId, movieId, rating, timestamp).
-⚙️ Installation
-To install the necessary dependencies, use the following command:
-
-Copy code
-pip install -r requirements.txt
-🚀 Usage
-Clone the repository:
-
-bash
-Copy code
-git clone https://github.com/your-username/movie-recommendation-system.git
-cd movie-recommendation-system
-Run the script to get movie recommendations:
-
-Import necessary libraries and load datasets.
-Prepare the data for collaborative filtering.
-Implement recommendation functions using Collaborative Filtering with K-Nearest Neighbors (KNN).
-🤖 Models Used
-The system uses Collaborative Filtering with the K-Nearest Neighbors (KNN) algorithm to recommend movies based on user ratings.
-
-📈 Evaluation
-The performance of the recommendation system can be evaluated based on the relevance and accuracy of the movie suggestions.
-
-🤝 Contributing
-Contributions are welcome! Please fork this repository and submit pull requests to contribute improvements or new features.
-
-📝 License
-This project is licensed under the MIT License. See the LICENSE file for details.
