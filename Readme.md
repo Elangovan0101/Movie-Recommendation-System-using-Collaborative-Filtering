@@ -1,51 +1,50 @@
-# 🎬 Movie Recommendation System 🍿
+🎬 Movie Recommendation System using Collaborative Filtering 🍿
+Welcome to the Movie Recommendation System project! This project utilizes collaborative filtering techniques to suggest movies based on user ratings and interactions.
 
-Welcome to the Movie Recommendation System project! This project leverages the K-Nearest Neighbors (KNN) algorithm to recommend movies based on user ratings.
 
-![Movie Recommendation System][(https://via.placeholder.com/800x400.png?text=Movie+Recommendation+System)](https://plus.unsplash.com/premium_photo-1682126367699-e925894017b5?q=80&w=1560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
-## 📚 Table of Contents
-
-- [Introduction](#introduction)
-- [Dataset](#dataset)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Model Used](#model-used)
-- [Evaluation](#evaluation)
-- [Contributing](#contributing)
-- [License](#license)
-
-## 🌟 Introduction
-
+📚 Table of Contents
+Introduction
+Dataset
+Installation
+Usage
+Models Used
+Evaluation
+Contributing
+License
+🌟 Introduction
 Finding a good movie to watch can be a daunting task with the plethora of options available. This project aims to simplify that by recommending movies based on user ratings using a machine learning approach.
 
-## 📊 Dataset
-
+📊 Dataset
 The datasets used in this project are:
 
-1. `movies.csv`: Contains movie information (movieId, title, genres).
-2. `ratings.csv`: Contains user ratings for movies (userId, movieId, rating, timestamp).
-
-## ⚙️ Installation
-
+movies.csv: Contains movie information (movieId, title, genres).
+ratings.csv: Contains user ratings for movies (userId, movieId, rating, timestamp).
+⚙️ Installation
 To install the necessary dependencies, use the following command:
 
-```bash
+Copy code
 pip install -r requirements.txt
+🚀 Usage
+Clone the repository:
 
-## 🚀 Usage
-Ensure that movies.csv and ratings.csv are in the project directory.
-Run the script to get movie recommendations:print(get_movie_recommendation('Iron Man'))
+bash
+Copy code
+git clone https://github.com/your-username/movie-recommendation-system.git
+cd movie-recommendation-system
+Run the script to get movie recommendations:
 
+Import necessary libraries and load datasets.
+Prepare the data for collaborative filtering.
+Implement recommendation functions using Collaborative Filtering with K-Nearest Neighbors (KNN).
+🤖 Models Used
+The system uses Collaborative Filtering with the K-Nearest Neighbors (KNN) algorithm to recommend movies based on user ratings.
 
-## 🧠 Model Used
-The K-Nearest Neighbors (KNN) algorithm is used to recommend movies based on user ratings. It finds the k-nearest movies to the given movie using cosine similarity.
+📈 Evaluation
+The performance of the recommendation system can be evaluated based on the relevance and accuracy of the movie suggestions.
 
-## 📈 Evaluation
-The performance of the model is evaluated based on the recommendations it provides. This can be improved by adjusting the number of neighbors and filtering criteria.
+🤝 Contributing
+Contributions are welcome! Please fork this repository and submit pull requests to contribute improvements or new features.
 
-## 🤝 Contributing
-Feel free to open issues or submit pull requests for improvements and new features.
-
-## 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+📝 License
+This project is licensed under the MIT License. See the LICENSE file for details.
