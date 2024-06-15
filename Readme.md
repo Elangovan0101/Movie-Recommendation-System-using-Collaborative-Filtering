@@ -6,10 +6,6 @@
 - [Dataset](#dataset)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Models Used](#models-used)
-- [Evaluation](#evaluation)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## 🌟 Introduction
 
