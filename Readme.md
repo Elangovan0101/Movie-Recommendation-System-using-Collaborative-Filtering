@@ -29,3 +29,7 @@ pip install -r requirements.txt
 
 ## 🚀 Usage
 Clone the repository: https://github.com/Elangovan0101/Movie-Recommendation-System-using-Collaborative-Filtering.git
+
+
+## 🧠 Model
+This system uses collaborative filtering with the K-Nearest Neighbors (KNN) algorithm to find similarities between movies based on user ratings. The KNN model is trained using a sparse matrix of the user-movie ratings.
