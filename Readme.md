@@ -1,4 +1,5 @@
 # 🎬 Movie Recommendation System using Machine Learning 🍿
+(https://plus.unsplash.com/premium_photo-1682126367699-e925894017b5?q=80&w=1560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
 ## 📚 Table of Contents
 
@@ -19,7 +20,6 @@ The dataset used in this project consists of user ratings and movie metadata. It
 2. `ratings.csv`: Contains user ratings for movies (userId, movieId, rating, timestamp).
 
 
-![Dataset Overview](https://plus.unsplash.com/premium_photo-1682126367699-e925894017b5?q=80&w=1560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
 ## ⚙️ Installation
 
