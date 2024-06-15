@@ -2,7 +2,7 @@
 
 Welcome to the Movie Recommendation System project! This project leverages the K-Nearest Neighbors (KNN) algorithm to recommend movies based on user ratings.
 
-![Movie Recommendation System](https://via.placeholder.com/800x400)
+![Movie Recommendation System](https://via.placeholder.com/800x400.png?text=Movie+Recommendation+System)
 
 ## 📚 Table of Contents
 
